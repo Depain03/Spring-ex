@@ -12,5 +12,6 @@ public class HomeController {
     	String result=restTemplate.getForObject(json, String.class );
     	System.out.println(result);
 				return result;  
+				//
 }  
 }
