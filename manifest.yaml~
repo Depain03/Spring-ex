@@ -1,0 +1,6 @@
+---
+
+applications:
+  - name: helloWorld
+    buildpack: staticfile_buildpack 
+    stack: cflinuxfs2

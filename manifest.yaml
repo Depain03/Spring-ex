@@ -1,0 +1,7 @@
+---
+
+applications:
+  - name: helloWorld
+    target: target/spring-ex-0.0.1.jar	
+    buildpack: staticfile_buildpack 
+    stack: cflinuxfs2
